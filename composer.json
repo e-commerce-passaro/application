@@ -1,0 +1,33 @@
+{
+  "name" : "e-commerce-passaro/application",
+  "description" : "Uma biblioteca para gerar as views de aplicação um e-commerce",
+  "version": "0.0.1",
+  "type":"library",
+  "homepage":"https://github.com/e-commerce-passaro/application",
+  "time":"2017-05-11 14:39:02",
+  "license":"GPL-3.0+",
+  "authors":[{
+	"name":"Marcel Bezerra da Silva",
+	"email":"marcelbzrra@gmail.com",
+	"role":"developer"
+  }],
+  "support": {
+  	"email":"marcelbzrra@gmail.com",
+  	"issues":"https://github.com/e-commerce-passaro/application/issues",
+  	"wiki":"https://github.com/e-commerce-passaro/application/wiki",
+  	"source":"https://github.com/e-commerce-passaro/application/releases"
+  },
+  "require" : {
+    "php" : ">=7.0",
+    "zendframework/zend-session" : "2.7.3",
+	"e-commerce-passaro/acesso" : "1.1.0",
+	"e-commerce-passaro/produto" : "1.1.0",
+	"e-commerce-passaro/site" : "0.0.1"
+  },
+  "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "application" ],
+  "autoload": {
+        "psr-4": {
+            "Ecompassaro\\Application\\": "./src/Application"
+        }
+  }
+}
